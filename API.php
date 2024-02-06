@@ -25,7 +25,7 @@
         </style>
     </head>
     <body>
-        <h1> Tarea 09 </h1>
+        <h1> Tarea 09 - Servicio Web JSON Placeholder </h1>
         <?php
             //Se realiza la peticion a la api que nos devuelve el JSON con la información de los posts
             $json = file_get_contents('https://jsonplaceholder.typicode.com/posts/1/comments');
